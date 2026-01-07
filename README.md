@@ -11,6 +11,8 @@ uv sync
 uv run plotter.py config.toml
 ```
 
+![Example](assets/example.png)
+
 ## Configuration
 
 ```toml

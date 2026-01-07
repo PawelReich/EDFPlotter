@@ -1,0 +1,24 @@
+[general]
+filename = "cewka_odp.png"
+trigger_ch_index = 0
+data_ch_index = 1
+time_limit_sec = 0.001
+remove_offset = false
+x_label = "Czas (us)"
+y_Label = "Amplituda"
+
+[smoothing]
+apply = true
+window = 401
+poly = 3
+
+[visual]
+line_width = 1.0
+
+[[files]]
+path = "../GitKop/meas/pulse_out_nometal.edf"
+label = "Bazowa odpowiedź sondy"
+
+[[files]]
+path = "../GitKop/meas/pulse_out_metal.edf"
+label = "Odpowiedź sondy z metalem w pobliżu"
