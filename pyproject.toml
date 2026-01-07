@@ -1,0 +1,11 @@
+[project]
+name = "EDFPlotter"
+version = "1.0.0"
+description = "Small utility for plotting EDF files"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pyedflib>=0.1.42",
+    "scipy>=1.16.3",
+]
