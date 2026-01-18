@@ -103,7 +103,7 @@ def process_edf_files(config : dict[str, Any]) -> None:
     plt.savefig(output_filename)
     print(f"[INFO] Plot saved to: {output_filename}")
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Small utility for plotting EDF files")
     parser.add_argument("config_file", help="Path to the .toml configuration file")
     
@@ -111,3 +111,6 @@ if __name__ == "__main__":
     
     cfg = load_config(args.config_file)
     process_edf_files(cfg)
+
+if __name__ == "__main__":
+    main()
