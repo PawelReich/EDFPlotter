@@ -5,10 +5,10 @@ Allows you to render EDF files as pretty and reproducible plots which can be use
 
 ## Usage
 
-Run using uv
+run using uv
 ```bash
-uv sync
-uv run plotter.py config.toml
+❯ uv tool install git+https://github.com/PawelReich/edfplotter
+❯ edfplot example.toml
 ```
 
 ![Example](assets/example.png)
